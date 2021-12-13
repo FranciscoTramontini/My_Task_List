@@ -9,6 +9,7 @@ import {TASKS} from '../../mosk-tasks';
 })
 export class TasksComponent implements OnInit {
   tasks: Task[] = TASKS;
+  
   constructor() { }
 
   ngOnInit(): void {
