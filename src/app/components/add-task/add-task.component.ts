@@ -36,6 +36,4 @@ export class AddTaskComponent implements OnInit {
     
     this.onAddTask.emit(newTask);
   }
-
-
 }
